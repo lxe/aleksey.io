@@ -1,0 +1,28 @@
+{
+  "name": "aleksey.io",
+  "version": "1.0.0",
+  "description": "Aleksey's blog.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxe/aleksey.io"
+  },
+  "keywords": [
+    "lxe",
+    "aleksey",
+    "blog"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxe/aleksey.io/issues"
+  },
+  "homepage": "https://github.com/lxe/aleksey.io",
+  "devDependencies": {
+    "ghost": "^0.5.3",
+    "nodemon": "^1.2.1"
+  }
+}
