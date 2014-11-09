@@ -4,7 +4,7 @@
   "description": "Aleksey's blog.",
   "main": "server.js",
   "scripts": {
-    "test": "npm test"
+    "watch": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,11 @@
     "url": "https://github.com/lxe/aleksey.io/issues"
   },
   "homepage": "https://github.com/lxe/aleksey.io",
+  "dependencies": {
+    "deep-extend": "^0.3.2",
+    "ghost": "^0.5.3"
+  },
   "devDependencies": {
-    "ghost": "^0.5.3",
     "nodemon": "^1.2.1"
   }
 }
